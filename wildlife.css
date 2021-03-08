@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.main-block-width {
+  width: 1440px;
+}
+
+.header {
+  background-image: url('./assets/b-header.png');
+  height: 780px;
+}
+
+.inner-header-block {
+  width: 1200px;
+  padding: 19px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo .icon {
+  background-image: url('./assets/wild-life-icon.svg');
+  width: 70px;
+  height: 60px;
+}
+
+.logo .name {
+  color: #F7F7F7;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar div {
+  color: #F7F7F7;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar .blog {
+  padding-right: 30px;
+}
+
+.nav-bar .contacts {
+  padding: 0 30px;
+}
+
+.nav-bar .search {
+  width: 32px;
+  height: 32px;
+  background-image: url('./assets/search-icon.png');
+  background-size: contain;
+  margin: 0 30px;
+}
+
+.nav-bar .sign-in {
+  width: 120px;
+  height: 50px;
+  border: 2px solid #CD6326;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.nav-bar .sign-in:hover {
+  background: #CD6326;
+}
+
+.survival-block {
+  width: 1200px;
+  margin: 120px auto;
+}
+
+.survival-block .survival {
+  color: #CD6326;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+}
+
+.survival-block .description {
+  padding: 50px 0;
+  width: 274px;
+  height: 108px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #F7F7F7;
+}
+
+.survival-block .donate {
+  width: 160px;
+  height: 60px;
+  background: #CD6326;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.survival-block .donate:hover {
+  background-color: #e39128;
+}
