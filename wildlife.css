@@ -173,7 +173,7 @@
 
 .wrapper-slider {
   width: 1200px;
-  padding: 100px 120px;
+  padding: 100px 120px 0;
   display: flex;
 }
 
@@ -245,6 +245,65 @@
 .description-item .subtitle {
   font-size: 17px;
   line-height: 27px;
+}
+
+.main-form {
+  width: 1200px;
+  position: relative;
+  top: 240px;
+  padding: 0 120px;
+  text-align: center;
+}
+
+.main-form label {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 40px;
+  color: #333333;
+  padding-bottom: 60px;
+}
+
+.main-form .form-fields {
+  padding-top: 60px;
+}
+
+.form-fields #subscribe {
+  background-color: #CCCCCC;
+  width: 540px;
+  height: 60px;
+  border: 1px solid #666666;
+  border-radius: 5px 0px 0px 5px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  margin-right: -5px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+}
+
+.form-fields #submit {
+  width: 120px;
+  height: 60px;
+  background: #CD6326;
+  border: 1px solid #CD6326;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 26px;
+  color: #F7F7F7;
+}
+
+.form-fields #submit:hover {
+  background-color: #e39128;
 }
 
 .footer {
