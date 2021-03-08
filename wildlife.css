@@ -29,6 +29,7 @@
 }
 
 .logo .name {
+  margin: 0;
   color: #F7F7F7;
   padding: 0 15px;
   text-transform: uppercase;
@@ -44,8 +45,7 @@
   align-items: center;
 }
 
-.nav-bar div {
-  color: #F7F7F7;
+.nav-bar li {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -57,6 +57,11 @@
   justify-content: center;
 }
 
+.nav-bar li a {
+  color: #F7F7F7;
+  text-decoration: none;
+}
+
 .nav-bar .blog {
   padding-right: 30px;
 }
@@ -65,7 +70,7 @@
   padding: 0 30px;
 }
 
-.nav-bar .search {
+.nav-bar .search a {
   width: 32px;
   height: 32px;
   background-image: url('./assets/search-icon.png');
@@ -87,12 +92,12 @@
   background: #CD6326;
 }
 
-.survival-block {
+.inner-survival-block {
   width: 1200px;
   margin: 120px auto;
 }
 
-.survival-block .survival {
+.inner-survival-block .survival {
   color: #CD6326;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -102,7 +107,7 @@
   letter-spacing: 2px;
 }
 
-.survival-block .description {
+.inner-survival-block .description {
   padding: 50px 0;
   width: 274px;
   height: 108px;
@@ -114,7 +119,7 @@
   color: #F7F7F7;
 }
 
-.survival-block .donate {
+.inner-survival-block .donate {
   width: 160px;
   height: 60px;
   background: #CD6326;
@@ -131,6 +136,118 @@
   cursor: pointer;
 }
 
-.survival-block .donate:hover {
+.inner-survival-block .donate:hover {
   background-color: #e39128;
+}
+
+.main {
+  height: 1368px;
+  background-color: #CCCCCC;
+}
+
+.main-title {
+  margin: 0;
+  padding: 120px 120px 0;
+  width: 1200px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  color: #333333;
+}
+
+.main-description {
+  width: 1200px;
+  margin: 0;
+  padding: 20px 120px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666;
+}
+
+.wrapper-slider {
+  width: 1200px;
+  padding: 100px 120px;
+  display: flex;
+}
+
+.left-slider,
+.right-slider {
+  width: 30px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.left-slider {
+  background-image: url('./assets/left-slider.png');
+  margin-right: 30px;
+}
+
+.right-slider {
+  background-image: url('./assets/right-slider.png');
+  margin-left: 30px;
+}
+
+.arraw {
+  display: flex;
+  align-self: center;
+}
+
+.content-slider {
+  display: flex;
+}
+
+.content-slider .slider-item {
+  width: 300px;
+  height: 360px;
+  padding: 0 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.Deer {
+  background-image: url('./assets/Deer.jpg');
+}
+
+.Squirrel {
+  background-image: url('./assets/Squirrel.jpg');
+}
+
+.Bird {
+  background-image: url('./assets/Bird.jpg');
+}
+
+.slider-item .description-item {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #F7F7F7;
+  position: relative;
+  top: 247px;
+}
+
+.description-item .title {
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.description-item .subtitle {
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.footer {
+  height: 360px;
+  background-image: url('./assets/b-footer.jpg');
 }
