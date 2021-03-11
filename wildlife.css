@@ -94,6 +94,10 @@
   background: #CD6326;
 }
 
+.nav-bar .sign-in:active {
+  background: #8F5613;
+}
+
 .inner-survival-block {
   width: 1200px;
   margin: 120px auto;
@@ -140,6 +144,10 @@
 
 .inner-survival-block .donate:hover {
   background-color: #e39128;
+}
+
+.inner-survival-block .donate:active {
+  background: #8F5613;
 }
 
 .main {
@@ -305,6 +313,10 @@
 
 .form-fields #submit:hover {
   background-color: #e39128;
+}
+
+.form-fields #submit:active {
+  background: #8F5613;
 }
 
 .footer {
